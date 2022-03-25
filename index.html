@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Porfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- nav start here -->
+      <nav class="nav">
+        <a href="#profile" class="profile">Profile</a>
+        <a href="#mywork" class="projects">Projects</a>
+        <a href="#contact" class="contect">Contect</a>
+      </nav>
+
+      <!--header started here-->
+      <div class="header">
+        <h1 class="fade-in" style="color: #4cf5a0">
+          Hey, I'm Kan-To <span><i class="bx bxs-party"></i></span>
+        </h1>
+        <img class="pfp fade-in" src="bunny47.png" alt="" />
+        <h1 class="fade-in" style="color: #4cf5a0">Junior Web Developer</h1>
+      </div>
+
+      <!-- Profile start here -->
+      <section id="profile" class="profile">
+        <h1 class="fade-in">Profile</h1>
+        <p class="profilePara fade-in">
+          Hi fellow! my name is <b style="color: #e18246">Khant Thu</b>.I was born in
+          <b style="color: #a97d4e">Myanmar,Yangon city</b>. When I was 9 years
+          old I found interest about Computers. I started to learn about how Computer works and programmed.
+           I'm still highschool student but I'm impassioned at
+          <b style="color: #889c3c">Computer Science and Web Developement</b>. I
+          <b style="color: #555466">selfstudied</b> by myself about
+          <b style="color: #4d3424; text-transform: uppercase"
+            >web developement</b
+          >
+          , <b style="color: #d88b53; text-transform: uppercase">coding</b> and
+          <b style="color: #e1eec9; text-transform: uppercase"
+            >graphic desgin</b
+          >
+          as well as
+          <b style="color: #bca49c; text-transform: uppercase">programming</b>.
+          <img src="ghost #989.png" alt="" />
+        </p>
+
+        <div class="question fade-in">
+          <p style="color: #f0a500">
+            "You might be ask what can a highschooler with no degree and
+            experience can do for you?"
+          </p>
+        </div>
+
+        <p class="answer fade-in">"Well, check out my works to know about that "</p>
+      </section>
+
+      <!-- work start here -->
+      <section id="mywork" class="mywork">
+        <h1 class="work fade-in">My Work</h1>
+
+        <!-- Slider main container -->
+        <div class="swiper fade-in">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./project 1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide"><img src="./project 2.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="./project 3.jpg" alt="" /></div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+
+      <!-- service start here -->
+      <section id="contact" class="contact">
+        <h1 class="fade-in">Contact Me</h1>
+        <input class="fade-in" type="text" placeholder="Name" />
+        <input class="fade-in" type="text" placeholder="Email" />
+        <input class="fade-in comment" type="text" placeholder="Comments" />
+        <button class="fade-in" type="submit">Send a message</button>
+        <ul>
+          <li style="cursor: pointer">
+            <i class="bx bxl-facebook-circle"></i>
+          </li>
+          <li style="cursor: pointer"><i class="bx bxl-twitter"></i></li>
+          <li style="cursor: pointer"><i class="bx bxl-discord-alt"></i></li>
+        </ul>
+      </section>
+    </div>
+  </body>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</html>
